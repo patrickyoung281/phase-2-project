@@ -1,0 +1,16 @@
+{
+    "vocabulary": [
+        {
+            "id": 1,
+            "GermanWord": "Ich fühle mich heute...",
+            "EnglishWord": "Today I feel...",
+            "Type": "Reflexive Verb"
+        },
+        {
+            "id": 2,
+            "GermanWord": "Ich will...",
+            "EnglishWord": "I want...",
+            "Type": "Modal Verb"
+        }
+    ]
+}
