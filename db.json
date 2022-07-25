@@ -1,16 +1,247 @@
 {
-    "vocabulary": [
-        {
-            "id": 1,
-            "GermanWord": "Ich fühle mich heute...",
-            "EnglishWord": "Today I feel...",
-            "Type": "Reflexive Verb"
-        },
-        {
-            "id": 2,
-            "GermanWord": "Ich will...",
-            "EnglishWord": "I want...",
-            "Type": "Modal Verb"
-        }
-    ]
+  "vocabulary": [
+    {
+      "id": 1,
+      "GermanWord": "Ich fühle mich heute...",
+      "EnglishWord": "Today I feel...",
+      "Type": "Reflexive Verb",
+      "journalEntry": "",
+      "date": "",
+      "title": ""
+    },
+    {
+      "id": 2,
+      "GermanWord": "Ich will...",
+      "EnglishWord": "I want...",
+      "Type": "Modal Verb",
+      "journalEntry": "",
+      "date": "",
+      "title": ""
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "This is my first journal!! ",
+      "date": "7/25/2022",
+      "title": "First Journal",
+      "id": 3
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "12",
+      "date": "12",
+      "title": "12",
+      "id": 4
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "sgdfsg",
+      "date": "",
+      "title": "",
+      "id": 5
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "fdsagsgf",
+      "date": "sssss",
+      "title": "aaaaaa",
+      "id": 6
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "sdfdff",
+      "date": "dddd",
+      "title": "dsaaaaa",
+      "id": 7
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "ffffffffffffffffff",
+      "date": "",
+      "title": "",
+      "id": 8
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "sssssssssssssss",
+      "date": "",
+      "title": "",
+      "id": 9
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "New Attempt ",
+      "date": "",
+      "title": "",
+      "id": 10
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "This time?",
+      "date": "",
+      "title": "",
+      "id": 11
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "Mayyybbeeeee????",
+      "date": "",
+      "title": "",
+      "id": 12
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "Why not????????????",
+      "date": "",
+      "title": "",
+      "id": 13
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "argggggg",
+      "date": "",
+      "title": "",
+      "id": 14
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "hmmmmmmmmmmmm",
+      "date": "",
+      "title": "",
+      "id": 15
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "aaaaaaaaaaaaaa",
+      "date": "",
+      "title": "",
+      "id": 16
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "EGgggsss???",
+      "date": "",
+      "title": "",
+      "id": 17
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "fsdgsdgsfg",
+      "date": "",
+      "title": "",
+      "id": 18
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "ffffffffffff",
+      "date": "",
+      "title": "",
+      "id": 19
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "sssssssssssssssss",
+      "date": "",
+      "title": "",
+      "id": 20
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "aaaaaaaaaaaaaaa",
+      "date": "",
+      "title": "",
+      "id": 21
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "merrrrrrr",
+      "date": "",
+      "title": "",
+      "id": 22
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "ssssssss",
+      "date": "",
+      "title": "",
+      "id": 23
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "ssssssssssssssssssssss",
+      "date": "",
+      "title": "",
+      "id": 24
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "aaaaaaaaaaaaaaaaa",
+      "date": "",
+      "title": "",
+      "id": 25
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "merrrrrrrrrrrrrrrrrrr",
+      "date": "",
+      "title": "",
+      "id": 26
+    },
+    {
+      "GermanWord": "",
+      "EnglishWord": "",
+      "Type": "",
+      "journalEntry": "eggggsss!!!!!",
+      "date": "",
+      "title": "",
+      "id": 27
+    }
+  ]
 }

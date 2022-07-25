@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Home from "./Home";
 import NavBar from "./NavBar";
 import CreateJournal from "./CreateJournal";
@@ -7,7 +7,11 @@ import Vocab from "./Vocab";
 import { Route } from "react-router-dom";
 
 
+
 function App() {
+  
+  const [displayJournal, setDisplayJournal] = useState(""); 
+  
   return (
     <div className="App">
       <NavBar />
@@ -15,10 +19,12 @@ function App() {
         <Home />
       </Route>
       <Route exact path="/createjournal">
-        <CreateJournal />
+        <CreateJournal
+          setDisplayJournal={setDisplayJournal} />
       </Route>
       <Route exact path="/displayjournals">
-        <DisplayJournals />
+        <DisplayJournals
+          displayJournal={displayJournal} />
       </Route>
       <Route exact path="/vocabulary">
         <Vocab />
