@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import JournalCardCreator from "./JournalCardCreator";
 
-function DisplayJournals ( {displayJournal} ) {
+function DisplayJournals () {
 
-    const test = displayJournal.journalEntry;
+const [displayjournals, setDisplayJournals] = useState([]);
+
+useEffect (()=>{
+    fetch("http://localhost:3001/vocabulary")
+    .then((resp)=>resp.json())
+    .then((data)=>setDisplayJournals(data))
+},[])
+
+    const allJournals = displayjournals.map((entry)=> {
+        if (entry.id >= 3)
+        return <JournalCardCreator key = {entry.id} date={entry.date} title={entry.title} journal={entry.journalEntry} />
+    })
 
     return (
 
-        <h2>You can view your journals here! {test}</h2>
+        <div>You can view your journals here! {allJournals}</div>
     )
 }
 export default DisplayJournals;

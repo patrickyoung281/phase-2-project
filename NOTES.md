@@ -22,3 +22,9 @@ Sort journals by topics
 Sort vocabulary by parts of speech 
 Edit journals
 Delete journals 
+
+Pseudocode 
+
+1. Identify which state holds the original journals. 
+2. Set that state equal to the original jounrals in db.json. 
+3. 

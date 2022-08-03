@@ -1,7 +1,6 @@
-import React, {useState} from "react";
-import DisplayJournals from "./DisplayJournals";
+import React, {useEffect, useState} from "react";
 
-function CreateJournal ( {setDisplayJournal} ) {
+function CreateJournal ( {handleAddJournal} ) {
 
 const [title, setTitle] = useState("");
 const [date, setDate] = useState("");
@@ -41,12 +40,13 @@ function handleSubmit (e) {
     body: JSON.stringify(newEntry),
     })
     .then((resp)=>resp.json())
-    .then((data)=>setDisplayJournal(data));
+    .then((data)=>handleAddJournal(data))
 
     setTitle("");
     setDate("");
     setJournal("");
 }
+
 
     return (
     <div>

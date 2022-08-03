@@ -10,7 +10,11 @@ import { Route } from "react-router-dom";
 
 function App() {
   
-  const [displayJournal, setDisplayJournal] = useState(""); 
+const [displayJournal, setDisplayJournal] = useState("[]"); 
+
+function handleAddJournal (journal) {
+  setDisplayJournal(journal);
+}
   
   return (
     <div className="App">
@@ -19,12 +23,12 @@ function App() {
         <Home />
       </Route>
       <Route exact path="/createjournal">
-        <CreateJournal
-          setDisplayJournal={setDisplayJournal} />
+        <CreateJournal 
+        handleAddJournal={handleAddJournal}/>
       </Route>
       <Route exact path="/displayjournals">
         <DisplayJournals
-          displayJournal={displayJournal} />
+          journal={displayJournal} />
       </Route>
       <Route exact path="/vocabulary">
         <Vocab />
