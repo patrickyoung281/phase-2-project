@@ -6,6 +6,8 @@ const [title, setTitle] = useState("");
 const [date, setDate] = useState("");
 const [journal, setJournal] = useState("");
 const [newEntry, setNewEntry] = useState([]);
+const [germanWord, setGermanWord] = useState("");
+const [englishWord, setEnglishWord] = useState("");
 
 function handleTitleChange (e) {
     setTitle(e.target.value)
@@ -19,11 +21,19 @@ function handleJournalChange (e) {
     setJournal(e.target.value);
 }
 
+function handleGermanChange (e) {
+    setGermanWord(e.target.value);
+}
+
+function handleEnglishChange (e) {
+    setEnglishWord(e.target.value);
+}
+
 function handleSubmit (e) {
     e.preventDefault();
     const newEntry = {
-        GermanWord: "",
-        EnglishWord: "",
+        GermanWord: germanWord,
+        EnglishWord: englishWord,
         Type: "",
         journalEntry: journal,
         date: date,
@@ -45,6 +55,8 @@ function handleSubmit (e) {
     setTitle("");
     setDate("");
     setJournal("");
+    setGermanWord("");
+    setEnglishWord("");
 }
 
 
@@ -78,9 +90,30 @@ function handleSubmit (e) {
                     onChange={handleJournalChange}
                     value={journal}
                     placeholder="Write your journal entry here!"
-                    name="journal">
+                    name="journal"
+                    id="journalEntryBox">
                     </input>
                 </label>
+                <div>
+                <label>
+                    German Word 
+                    <input type="text"
+                    onChange={handleGermanChange}
+                    name="GermanWord"
+                    value={germanWord}
+                    placeholder="Write the German word here!">
+                    </input>
+                </label>
+                <label>
+                    English word
+                    <input type="text"
+                    onChange={handleEnglishChange}
+                    name="EnglishWord"
+                    value={englishWord}
+                    placeholder="Write the English translation here!">
+                    </input>
+                </label>
+                </div>
             <div>
                 <input 
                     type="submit"
@@ -90,7 +123,6 @@ function handleSubmit (e) {
             </div>
             </div>
         </form>
-
     </div>
     )
 
