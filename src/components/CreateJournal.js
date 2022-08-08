@@ -5,7 +5,6 @@ function CreateJournal ( {handleAddJournal} ) {
 const [title, setTitle] = useState("");
 const [date, setDate] = useState("");
 const [journal, setJournal] = useState("");
-const [newEntry, setNewEntry] = useState([]);
 const [germanWord, setGermanWord] = useState("");
 const [englishWord, setEnglishWord] = useState("");
 
@@ -38,8 +37,6 @@ function handleSubmit (e) {
         date: date,
         title: title
     };
-
-    setNewEntry(newEntry);
     
     fetch("http://localhost:3001/vocabulary", {
     method: "POST",
@@ -57,7 +54,6 @@ function handleSubmit (e) {
     setGermanWord("");
     setEnglishWord("");
 }
-
 
     return (
     <div>
