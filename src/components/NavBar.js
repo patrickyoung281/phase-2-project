@@ -18,10 +18,8 @@ function NavBar () {
         <div className="navBar">
             <img id="flag1" src={germanFlag}></img>
             <img id="flag2" src={germanFlag}></img>
-            <h2 className="headerText">Herzlich Willkommen!</h2>
+            <h1 className="headerText">Mein Persönliches Tagesbuch</h1><h2>My Personal Diary</h2>
             
-            
-
             <NavLink
                 to="/"
                 exact

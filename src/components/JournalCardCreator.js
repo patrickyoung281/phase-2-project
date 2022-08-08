@@ -7,7 +7,6 @@ function JournalCardCreator ( {title, date, journal} ) {
                 <h2><strong>Journal Date:</strong></h2><h3>{date}</h3>
                 <h2><strong>Journal Entry:</strong></h2><h3>{journal}</h3>
                 <hr></hr>
-
             </div>
 }
 

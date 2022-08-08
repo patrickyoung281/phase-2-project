@@ -19,7 +19,7 @@ useEffect (()=>{
     return (
 
         <div className="headerText">
-            <h1>You can view your journals here!</h1> 
+            <h1>Lesen Sie Ihr ganzes Tagebuch hier!<br></br> Read your entire journal here!</h1> 
             <div>{allJournals}</div>
         </div>
     )

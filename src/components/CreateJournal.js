@@ -57,7 +57,7 @@ function handleSubmit (e) {
 
     return (
     <div>
-        <h2 className="headerText">Create your Journal here!</h2>
+        <h2 className="headerText">Schreiben Sie Ihr Tagesbuch Hier! <br></br>Write your Journal here!</h2>
         <form className="headerText" onSubmit={handleSubmit}>
             <label className="journalDate">
                 Date:   
@@ -90,7 +90,7 @@ function handleSubmit (e) {
                     </input>
                 </label>
                 <div>
-                    <h3>Vocabulary to Remember</h3>
+                    <h3>Wichtiges Wortschatz<br></br>Important Vocabulary</h3>
                     <ul className="vocabDirections">
                         <li>After you write your journal, select a German word that you used in your journal. It should be a word that was new or interesting to you.</li>
                         <li>Write the German word with the English translation below.</li>
