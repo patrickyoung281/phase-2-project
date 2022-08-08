@@ -95,6 +95,11 @@ function handleSubmit (e) {
                     </input>
                 </label>
                 <div>
+                    <h4>After you write your journal, select a German word that you used in your journal,<br></br> and that was new or interesting to you.
+                    Write the German word with the English translation below.<br></br> This word will be saved under the "Useful Vocabulary tab, so that you can reference it and use it again in the futuer.
+                    </h4>
+                </div>
+                <div>
                 <label>
                     German Word 
                     <input type="text"
