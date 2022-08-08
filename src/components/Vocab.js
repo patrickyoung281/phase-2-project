@@ -16,7 +16,7 @@ const displayWords = vocab.map((word)=>{
 })
 
     return (
-        <div>
+        <div className="headerText">
         <h2>Useful vocab here!</h2>
         <div>{displayWords}</div>
         </div>

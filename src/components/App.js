@@ -5,7 +5,6 @@ import CreateJournal from "./CreateJournal";
 import DisplayJournals from "./DisplayJournals";
 import Vocab from "./Vocab";
 import { Route } from "react-router-dom";
-import "../"
 
 function App() {
   

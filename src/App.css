@@ -2,7 +2,7 @@
   text-align: center;
 } */
 
-.headerText {
+.headerText, .journalDate {
   text-align: center;
 }
 
@@ -52,7 +52,7 @@
 
 #journalEntryBox {
   height: 100px;
-  width: 300px;
+  width: 400px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -77,4 +77,19 @@
   position: relative;
   margin-left: 450px;
   margin-right: 300px;
+}
+
+.journalDate {
+  margin-right: 60px;
+}
+
+.germanWordBox {
+  margin-right: 40px;
+}
+
+.vocabDirections {
+  position: relative;
+  margin-left: 450px;
+  margin-right: 300px;
+  text-align: left;
 }

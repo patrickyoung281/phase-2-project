@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 
 function CreateJournal ( {handleAddJournal} ) {
 
@@ -61,10 +61,10 @@ function handleSubmit (e) {
 
     return (
     <div>
-        <h2>Create your Journal here!</h2>
-        <form className="journalDate" onSubmit={handleSubmit}>
-            <label>
-                Date:
+        <h2 className="headerText">Create your Journal here!</h2>
+        <form className="headerText" onSubmit={handleSubmit}>
+            <label className="journalDate">
+                Date:   
                 <input type = "text"
                 onChange={handleDateChange}
                 name="date"
@@ -94,14 +94,19 @@ function handleSubmit (e) {
                     </input>
                 </label>
                 <div>
-                    <h4>After you write your journal, select a German word that you used in your journal,<br></br> and that was new or interesting to you.
-                    Write the German word with the English translation below.<br></br> This word will be saved under the "Useful Vocabulary tab, so that you can reference it and use it again in the futuer.
-                    </h4>
+                    <h3>Vocabulary to Remember</h3>
+                    <ul className="vocabDirections">
+                        <li>After you write your journal, select a German word that you used in your journal. It should be a word that was new or interesting to you.</li>
+                        <li>Write the German word with the English translation below.</li>
+                        <li>This word will be saved under the "Useful Vocabulary tab, so that you can reference it and use it again in the future.</li>
+                    </ul>
                 </div>
                 <div>
                 <label>
                     German Word 
-                    <input type="text"
+                    <input
+                    className="germanWordBox"
+                    type="text"
                     onChange={handleGermanChange}
                     name="GermanWord"
                     value={germanWord}
@@ -119,6 +124,7 @@ function handleSubmit (e) {
                 </label>
                 </div>
             <div>
+                <br></br>
                 <input 
                     type="submit"
                     name="submit"

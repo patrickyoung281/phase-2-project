@@ -18,7 +18,7 @@ useEffect (()=>{
 
     return (
 
-        <div>
+        <div className="headerText">
             <h1>You can view your journals here!</h1> 
             <div>{allJournals}</div>
         </div>
