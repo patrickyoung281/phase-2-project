@@ -5,7 +5,7 @@ function Home () {
     return (
         <div>
             <h2 className="headerText">Herzlich Willkommen!</h2>
-            <h3 className="headerText">You can use this website to keep an electronic journal in German.<br></br>Sie können diese Webseite verwenden, um ein Tagesbuch zu schreiben.</h3>
+            <h3 className="headerText">Sie können diese Webseite verwenden, um ein Tagesbuch zu schreiben.<br></br>You can use this website to keep an electronic journal in German.</h3>
             <h2 className="headerText"><strong>Anweisungen</strong></h2>
             <div className="directions">
                 <ol>
