@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 
 function JournalCardCreator ( {title, date, journal} ) {
 
-    return  <h2 class="journalCards">
-                Journal Title: {title}
-                Journal Date: {date}
-                Journal Entry: {journal}
-            </h2>
+    return  <div class="journalCards">
+                <h2><strong>Journal Title:</strong> {title} </h2>
+                <h2><strong>Journal Date:</strong> {date} </h2>
+                <h2><strong>Journal Entry:</strong><br></br> {journal}</h2>
+            </div>
 }
 
 export default JournalCardCreator;

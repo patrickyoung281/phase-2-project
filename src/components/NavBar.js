@@ -15,7 +15,7 @@ function NavBar () {
 
     return (
         <div>
-            <h2>Here is the NavBar!</h2>
+            <h2>Herzlich Willkommen!</h2>
             <NavLink
                 to="/"
                 exact

@@ -18,7 +18,10 @@ useEffect (()=>{
 
     return (
 
-        <div>You can view your journals here! {allJournals}</div>
+        <div>
+            <h1>You can view your journals here!</h1> 
+            <div>{allJournals}</div>
+        </div>
     )
 }
 export default DisplayJournals;

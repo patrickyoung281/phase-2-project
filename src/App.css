@@ -39,6 +39,7 @@
 
 .journalCards {
   color: blue;
+  padding: 10px;
 }
 
 #journalEntryBox {
@@ -46,4 +47,8 @@
   width: 300px;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.vocabCard {
+  padding: 10px;
 }

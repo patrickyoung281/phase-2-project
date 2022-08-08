@@ -19,49 +19,13 @@
       "title": ""
     },
     {
-      "GermanWord": "",
-      "EnglishWord": "",
+      "GermanWord": "die Wohnung",
+      "EnglishWord": "Apartment",
       "Type": "",
-      "journalEntry": "Hellooooooooooo",
-      "date": "",
-      "title": "",
+      "journalEntry": "Hello! This is my first journal. ",
+      "date": "8/8",
+      "title": "Journal #1",
       "id": 3
-    },
-    {
-      "GermanWord": "",
-      "EnglishWord": "",
-      "Type": "",
-      "journalEntry": "MERRRRRRRRRRRR",
-      "date": "",
-      "title": "",
-      "id": 4
-    },
-    {
-      "GermanWord": "",
-      "EnglishWord": "",
-      "Type": "",
-      "journalEntry": "Eggs",
-      "date": "",
-      "title": "",
-      "id": 5
-    },
-    {
-      "GermanWord": "",
-      "EnglishWord": "",
-      "Type": "",
-      "journalEntry": "HEllooooo",
-      "date": "",
-      "title": "",
-      "id": 6
-    },
-    {
-      "GermanWord": "",
-      "EnglishWord": "",
-      "Type": "",
-      "journalEntry": "MERRRRRRRRRRRR",
-      "date": "",
-      "title": "",
-      "id": 7
     }
   ]
 }

@@ -7,8 +7,6 @@ import Vocab from "./Vocab";
 import { Route } from "react-router-dom";
 import "../"
 
-
-
 function App() {
   
 const [displayJournal, setDisplayJournal] = useState("[]"); 
