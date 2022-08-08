@@ -34,7 +34,6 @@ function handleSubmit (e) {
     const newEntry = {
         GermanWord: germanWord,
         EnglishWord: englishWord,
-        Type: "",
         journalEntry: journal,
         date: date,
         title: title

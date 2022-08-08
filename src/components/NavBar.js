@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import germanFlag from "../images/germanFlag.png";
 
 function NavBar () {
 
@@ -14,8 +15,13 @@ function NavBar () {
       };
 
     return (
-        <div>
-            <h2>Herzlich Willkommen!</h2>
+        <div className="navBar">
+            <img id="flag1" src={germanFlag}></img>
+            <img id="flag2" src={germanFlag}></img>
+            <h2 className="headerText">Herzlich Willkommen!</h2>
+            
+            
+
             <NavLink
                 to="/"
                 exact
