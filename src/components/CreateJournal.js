@@ -10,7 +10,6 @@ const [formData, setFormData] = useState({
         title: "",
 })
 
-
 function handleChange (e) {
     const name = e.target.name;
     let value = e.target.value;
@@ -21,62 +20,28 @@ function handleChange (e) {
     });
 }
 
-
 function handleSubmit (e) {
     e.preventDefault();
     console.log(formData);
-}
 
-// const [title, setTitle] = useState("");
-// const [date, setDate] = useState("");
-// const [journal, setJournal] = useState("");
-// const [germanWord, setGermanWord] = useState("");
-// const [englishWord, setEnglishWord] = useState("");
+    fetch("http://localhost:3001/vocabulary", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json",
+    },
+    body: JSON.stringify(formData),
+    })
+    .then((resp)=>resp.json())
+    // .then((data)=>handleAddJournal(data))
 
-
-
-// function handleDateChange (e) {
-//     setDate(e.target.value);
-// }
-
-// function handleJournalChange (e) {
-//     setJournal(e.target.value);
-// }
-
-// function handleGermanChange (e) {
-//     setGermanWord(e.target.value);
-// }
-
-// function handleEnglishChange (e) {
-//     setEnglishWord(e.target.value);
-// }
-
-// function handleSubmit (e) {
-//     e.preventDefault();
-//     const newEntry = {
-//         germanWord: germanWord,
-//         englishWord: englishWord,
-//         journalEntry: journal,
-//         date: date,
-//         title: title
-//     };
-    
-//     fetch("http://localhost:3001/vocabulary", {
-//     method: "POST",
-//     headers: {
-//         "Content-Type": "application/json",
-//     },
-//     body: JSON.stringify(newEntry),
-//     })
-//     .then((resp)=>resp.json())
-//     // .then((data)=>handleAddJournal(data))
-
-//     setTitle("");
-//     setDate("");
-//     setJournal("");
-//     setGermanWord("");
-//     setEnglishWord("");
-// }
+    setFormData({
+        germanWord: "",
+        englishWord: "",
+        journal: "",
+        date: "",
+        title: "",
+    })
+ }
 
     return (
     <div>
