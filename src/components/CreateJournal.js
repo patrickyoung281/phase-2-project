@@ -2,58 +2,81 @@ import React, {useState} from "react";
 
 function CreateJournal ( {handleAddJournal} ) {
 
-const [title, setTitle] = useState("");
-const [date, setDate] = useState("");
-const [journal, setJournal] = useState("");
-const [germanWord, setGermanWord] = useState("");
-const [englishWord, setEnglishWord] = useState("");
+const [formData, setFormData] = useState({
+        germanWord: "",
+        englishWord: "",
+        journal: "",
+        date: "",
+        title: "",
+})
 
-function handleTitleChange (e) {
-    setTitle(e.target.value)
+
+function handleChange (e) {
+    const name = e.target.name;
+    let value = e.target.value;
+    
+    setFormData({
+        ...formData,
+        [name]: value,
+    });
 }
 
-function handleDateChange (e) {
-    setDate(e.target.value);
-}
-
-function handleJournalChange (e) {
-    setJournal(e.target.value);
-}
-
-function handleGermanChange (e) {
-    setGermanWord(e.target.value);
-}
-
-function handleEnglishChange (e) {
-    setEnglishWord(e.target.value);
-}
 
 function handleSubmit (e) {
     e.preventDefault();
-    const newEntry = {
-        GermanWord: germanWord,
-        EnglishWord: englishWord,
-        journalEntry: journal,
-        date: date,
-        title: title
-    };
-    
-    fetch("http://localhost:3001/vocabulary", {
-    method: "POST",
-    headers: {
-        "Content-Type": "application/json",
-    },
-    body: JSON.stringify(newEntry),
-    })
-    .then((resp)=>resp.json())
-    // .then((data)=>handleAddJournal(data))
-
-    setTitle("");
-    setDate("");
-    setJournal("");
-    setGermanWord("");
-    setEnglishWord("");
+    console.log(formData);
 }
+
+// const [title, setTitle] = useState("");
+// const [date, setDate] = useState("");
+// const [journal, setJournal] = useState("");
+// const [germanWord, setGermanWord] = useState("");
+// const [englishWord, setEnglishWord] = useState("");
+
+
+
+// function handleDateChange (e) {
+//     setDate(e.target.value);
+// }
+
+// function handleJournalChange (e) {
+//     setJournal(e.target.value);
+// }
+
+// function handleGermanChange (e) {
+//     setGermanWord(e.target.value);
+// }
+
+// function handleEnglishChange (e) {
+//     setEnglishWord(e.target.value);
+// }
+
+// function handleSubmit (e) {
+//     e.preventDefault();
+//     const newEntry = {
+//         germanWord: germanWord,
+//         englishWord: englishWord,
+//         journalEntry: journal,
+//         date: date,
+//         title: title
+//     };
+    
+//     fetch("http://localhost:3001/vocabulary", {
+//     method: "POST",
+//     headers: {
+//         "Content-Type": "application/json",
+//     },
+//     body: JSON.stringify(newEntry),
+//     })
+//     .then((resp)=>resp.json())
+//     // .then((data)=>handleAddJournal(data))
+
+//     setTitle("");
+//     setDate("");
+//     setJournal("");
+//     setGermanWord("");
+//     setEnglishWord("");
+// }
 
     return (
     <div>
@@ -62,9 +85,9 @@ function handleSubmit (e) {
             <label className="journalDate">
                 Date:   
                 <input type = "text"
-                onChange={handleDateChange}
+                onChange={handleChange}
                 name="date"
-                value={date} 
+                value={formData.date} 
                 placeholder="Date">
                 </input>
             </label>
@@ -72,9 +95,9 @@ function handleSubmit (e) {
             <label>
                 Journal Title:
                 <input type="text"
-                onChange={handleTitleChange}
+                onChange={handleChange}
                 name="title"
-                value={title}
+                value={formData.title}
                 placeholder="Title">
                 </input>
             </label>
@@ -82,8 +105,8 @@ function handleSubmit (e) {
                 <label>
                     Journal:
                     <input type="text"
-                    onChange={handleJournalChange}
-                    value={journal}
+                    onChange={handleChange}
+                    value={formData.journal}
                     placeholder="Write your journal entry here!"
                     name="journal"
                     id="journalEntryBox">
@@ -103,18 +126,18 @@ function handleSubmit (e) {
                     <input
                     className="germanWordBox"
                     type="text"
-                    onChange={handleGermanChange}
-                    name="GermanWord"
-                    value={germanWord}
+                    onChange={handleChange}
+                    name="germanWord"
+                    value={formData.germanWord}
                     placeholder="Write the German word here!">
                     </input>
                 </label>
                 <label>
                     English word
                     <input type="text"
-                    onChange={handleEnglishChange}
-                    name="EnglishWord"
-                    value={englishWord}
+                    onChange={handleChange}
+                    name="englishWord"
+                    value={formData.englishWord}
                     placeholder="Write the English translation here!">
                     </input>
                 </label>

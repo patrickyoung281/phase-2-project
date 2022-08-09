@@ -5,7 +5,7 @@
       "GermanWord": "Ich fühle mich heute...",
       "EnglishWord": "Today I feel...",
       "Type": "Reflexive Verb",
-      "journalEntry": "",
+      "journal": "",
       "date": "",
       "title": ""
     },
@@ -14,33 +14,9 @@
       "GermanWord": "Ich will...",
       "EnglishWord": "I want...",
       "Type": "Modal Verb",
-      "journalEntry": "",
+      "journal": "",
       "date": "",
       "title": ""
-    },
-    {
-      "GermanWord": "Guten Tag",
-      "EnglishWord": "Good Afternoon! ",
-      "journalEntry": "Guten Tag! Ich bin der Patrick. ",
-      "date": "8/8/2022",
-      "title": "First Journal",
-      "id": 3
-    },
-    {
-      "GermanWord": "Montag",
-      "EnglishWord": "Monday",
-      "journalEntry": "Guten Abend! Heute ist Montag. ",
-      "date": "8/9/2022",
-      "title": "Second Journal",
-      "id": 4
-    },
-    {
-      "GermanWord": "",
-      "EnglishWord": "",
-      "journalEntry": "fffffffff",
-      "date": "",
-      "title": "",
-      "id": 5
     }
   ]
 }
