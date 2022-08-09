@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-function CreateJournal ( {handleAddJournal} ) {
+function CreateJournal () {
 
 const [formData, setFormData] = useState({
         germanWord: "",
@@ -32,7 +32,7 @@ function handleSubmit (e) {
     body: JSON.stringify(formData),
     })
     .then((resp)=>resp.json())
-    // .then((data)=>handleAddJournal(data))
+    // .then((data)=>console.log("data", data))
 
     setFormData({
         germanWord: "",

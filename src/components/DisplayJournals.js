@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import JournalCardCreator from "./JournalCardCreator";
 
-function DisplayJournals () {
+function DisplayJournals ( ) {
 
 const [displayjournals, setDisplayJournals] = useState([]);
 
@@ -13,7 +13,7 @@ useEffect (()=>{
 
     const allJournals = displayjournals.map((entry)=> {
         if (entry.id >= 3)
-        return <JournalCardCreator key = {entry.id} date={entry.date} title={entry.title} journal={entry.journalEntry} />
+        return <JournalCardCreator key = {entry.id} date={entry.date} title={entry.title} journal={entry.journal} />
     })
 
     return (

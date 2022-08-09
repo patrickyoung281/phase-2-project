@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Home from "./Home";
 import NavBar from "./NavBar";
 import CreateJournal from "./CreateJournal";
@@ -8,12 +8,6 @@ import { Route } from "react-router-dom";
 
 function App() {
   
-const [displayJournal, setDisplayJournal] = useState("[]"); 
-
-function handleAddJournal (journal) {
-  setDisplayJournal(journal);
-}
-  
   return (
     <div className="App">
       <NavBar />
@@ -22,11 +16,11 @@ function handleAddJournal (journal) {
       </Route>
       <Route exact path="/createjournal">
         <CreateJournal 
-        handleAddJournal={handleAddJournal}/>
+        />
       </Route>
       <Route exact path="/displayjournals">
         <DisplayJournals
-          journal={displayJournal} />
+          />
       </Route>
       <Route exact path="/vocabulary">
         <Vocab />
