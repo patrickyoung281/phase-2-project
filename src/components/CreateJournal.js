@@ -46,7 +46,7 @@ function handleSubmit (e) {
     body: JSON.stringify(newEntry),
     })
     .then((resp)=>resp.json())
-    .then((data)=>handleAddJournal(data))
+    // .then((data)=>handleAddJournal(data))
 
     setTitle("");
     setDate("");
