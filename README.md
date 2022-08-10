@@ -22,12 +22,12 @@ If you click "Useful Vocabulary," the list begins with two words and their Engli
 
 Below is a roadmap of the React components. 
 
-App
-    |-->NavBar
-    |-->Home
-    |-->CreateJournals
-    |-->Display Journals
-        |-->JournalCardCreator
-    |-->Vocab
-        |-->VocabCardCreator
+App<br></br>
+    |-->NavBar<br></br>
+    |-->Home<br></br>
+    |-->CreateJournals<br></br>
+    |-->Display Journals<br></br>
+        |-->JournalCardCreator<br></br>
+    |-->Vocab<br></br>
+        |-->VocabCardCreator<br></br>
 
