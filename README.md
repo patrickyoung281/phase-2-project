@@ -22,5 +22,4 @@ If you click "Useful Vocabulary," the list begins with two words and their Engli
 
 Below is a roadmap of the React components. 
 
-![](vscode-remote://wsl%2Bubuntu/home/patrick/development/code/phase-2/phase-2-project/src/images/ComponentHierarchy.jpg)
-
+<img src="src/images/ComponentHierarchy.jpg">
