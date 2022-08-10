@@ -17,3 +17,17 @@ In order to view a running list of every journal you have written, click the "Vi
 <h3><strong>Vocabulary Words</strong></h3>
 
 If you click "Useful Vocabulary," the list begins with two words and their English translations. But you will add to this list every time you create a journal. A running list of every word you found helpful, interesting, or useful will appear here. You are encouraged to reference this list when writing your journal entries. 
+
+<h3><strong>Roadmap of Components</strong></h3>
+
+Below is a roadmap of the React components. 
+
+App
+    |-->NavBar
+    |-->Home
+    |-->CreateJournals
+    |-->Display Journals
+        |-->JournalCardCreator
+    |-->Vocab
+        |-->VocabCardCreator
+
