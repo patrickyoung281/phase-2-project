@@ -1,5 +1,5 @@
 {
-  "vocabulary": [
+  "journals": [
     {
       "id": 1,
       "germanWord": "Ich fühle mich heute...",
@@ -17,14 +17,6 @@
       "journal": "",
       "date": "",
       "title": ""
-    },
-    {
-      "germanWord": "dddd",
-      "englishWord": "",
-      "journal": "",
-      "date": "",
-      "title": "",
-      "id": 3
     }
   ]
 }

@@ -6,7 +6,7 @@ function DisplayJournals ( ) {
 const [displayjournals, setDisplayJournals] = useState([]);
 
 useEffect (()=>{
-    fetch("http://localhost:3001/vocabulary")
+    fetch("http://localhost:3000/journals")
     .then((resp)=>resp.json())
     .then((data)=>setDisplayJournals(data))
 },[])

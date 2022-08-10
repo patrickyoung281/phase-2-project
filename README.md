@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+Welcome to your digital German Journal! 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app will allow you to record a running journal of your daily thoughts and activities. The more German you write, the better your language skills will become! 
 
-## Available Scripts
+<strong>Create A Journal</strong>
 
-In the project directory, you can run:
+In order to write a journal entry, simply click the "Create Journal" button. This will take you to a screen where you can write the date, a journal title, and the journal entry. 
 
-### `npm start`
+Below the journal entry is a vocabulary section. This allows you to input one German word and it's English translation. Once you write your journal entry, you should select one word you used that you feel is important or interesting. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Once you have written your journal entry and selected your vocabulary word, click the button at the bottom that reads "Create Journal Entry." 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<strong>View Your Journals</strong>
 
-### `npm test`
+In order to view a running list of every journal you have written, click the "View Journals" button. On this page, you can see every journal you have written in chronological order. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<strong>Vocabulary Words</strong>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you click "Useful Vocabulary," the list begins with two words and their English translations. But you will add to this list every time you create a journal. A running list of every word you found helpful, interesting, or useful will appear here. You are encouraged to reference this list when writing your journal entries. 
