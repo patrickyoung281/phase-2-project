@@ -2,8 +2,8 @@
   "vocabulary": [
     {
       "id": 1,
-      "GermanWord": "Ich fühle mich heute...",
-      "EnglishWord": "Today I feel...",
+      "germanWord": "Ich fühle mich heute...",
+      "englishWord": "Today I feel...",
       "Type": "Reflexive Verb",
       "journal": "",
       "date": "",
@@ -11,100 +11,20 @@
     },
     {
       "id": 2,
-      "GermanWord": "Ich will...",
-      "EnglishWord": "I want...",
+      "germanWord": "Ich will...",
+      "englishWord": "I want...",
       "Type": "Modal Verb",
       "journal": "",
       "date": "",
       "title": ""
     },
     {
-      "germanWord": "",
+      "germanWord": "dddd",
       "englishWord": "",
-      "journal": "merrrrrrr",
+      "journal": "",
       "date": "",
       "title": "",
       "id": 3
-    },
-    {
-      "germanWord": "",
-      "englishWord": "",
-      "journal": "",
-      "date": "",
-      "title": "",
-      "id": 4
-    },
-    {
-      "germanWord": "",
-      "englishWord": "",
-      "journal": "rrrrrr",
-      "date": "",
-      "title": "",
-      "id": 5
-    },
-    {
-      "germanWord": "",
-      "englishWord": "",
-      "journal": "sssssss",
-      "date": "",
-      "title": "",
-      "id": 6
-    },
-    {
-      "germanWord": "",
-      "englishWord": "",
-      "journal": "sssss",
-      "date": "",
-      "title": "",
-      "id": 7
-    },
-    {
-      "germanWord": "",
-      "englishWord": "",
-      "journal": "",
-      "date": "",
-      "title": "",
-      "id": 8
-    },
-    {
-      "germanWord": "",
-      "englishWord": "",
-      "journal": "wwwww",
-      "date": "",
-      "title": "",
-      "id": 9
-    },
-    {
-      "germanWord": "",
-      "englishWord": "",
-      "journal": "",
-      "date": "",
-      "title": "",
-      "id": 10
-    },
-    {
-      "germanWord": "",
-      "englishWord": "",
-      "journal": "wwwwww",
-      "date": "",
-      "title": "",
-      "id": 11
-    },
-    {
-      "germanWord": "",
-      "englishWord": "",
-      "journal": "qqqq",
-      "date": "",
-      "title": "",
-      "id": 12
-    },
-    {
-      "germanWord": "11112",
-      "englishWord": "22222",
-      "journal": "11111",
-      "date": "//",
-      "title": "Journal #1",
-      "id": 13
     }
   ]
 }

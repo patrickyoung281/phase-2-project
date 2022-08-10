@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-function CreateJournal ( {onNewEntry} ) {
+function CreateJournal ( ) {
 
 const [formData, setFormData] = useState({
         germanWord: "",
@@ -22,7 +22,6 @@ function handleChange (e) {
 
 function handleSubmit (e) {
     e.preventDefault();
-    console.log(formData);
 
     fetch("http://localhost:3001/vocabulary", {
     method: "POST",
@@ -40,7 +39,9 @@ function handleSubmit (e) {
         date: "",
         title: "",
     })
+
  }
+ 
 
     return (
     <div>

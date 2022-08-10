@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import VocabCardCreator from "./VocabCardCreator";
 
-function Vocab ( ) {
+function Vocab () {
 
 const [vocab, setVocab] = useState([]);
 
@@ -12,7 +12,7 @@ useEffect(()=>{
 },[]) 
 
 const displayWords = vocab.map((word)=>{
-    return <VocabCardCreator germanWord={word.germanWord} englishWord={word.englishWord} id={word.id} type={word.Type}/>
+    return <VocabCardCreator germanWord={word.germanWord} englishWord={word.englishWord} key={word.id} type={word.Type} id={word.id}/>
 })
 
     return (
@@ -22,5 +22,4 @@ const displayWords = vocab.map((word)=>{
         </div>
     )
 }
-
 export default Vocab;

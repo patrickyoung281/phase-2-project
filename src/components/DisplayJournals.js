@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import JournalCardCreator from "./JournalCardCreator";
 
-function DisplayJournals () {
+function DisplayJournals ( ) {
 
 const [displayjournals, setDisplayJournals] = useState([]);
 
