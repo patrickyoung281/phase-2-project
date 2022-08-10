@@ -8,22 +8,21 @@ import { Route } from "react-router-dom";
 
 function App() {
   
-  return (
+return (
     <div className="App">
       <NavBar />
       <Route exact path="/">
         <Home />
       </Route>
       <Route exact path="/createjournal">
-        <CreateJournal 
-        />
+        <CreateJournal />
       </Route>
       <Route exact path="/displayjournals">
         <DisplayJournals
-          />
+        />
       </Route>
       <Route exact path="/vocabulary">
-        <Vocab />
+        <Vocab/>
       </Route>
     </div>
   );
