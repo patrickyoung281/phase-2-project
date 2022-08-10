@@ -22,12 +22,5 @@ If you click "Useful Vocabulary," the list begins with two words and their Engli
 
 Below is a roadmap of the React components. 
 
-App<br></br>
-    |-->NavBar<br></br>
-    |-->Home<br></br>
-    |-->CreateJournals<br></br>
-    |-->Display Journals<br></br>
-        |-->JournalCardCreator<br></br>
-    |-->Vocab<br></br>
-        |-->VocabCardCreator<br></br>
+![](vscode-remote://wsl%2Bubuntu/home/patrick/development/code/phase-2/phase-2-project/src/images/ComponentHierarchy.jpg)
 
