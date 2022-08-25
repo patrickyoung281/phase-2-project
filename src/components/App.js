@@ -8,7 +8,7 @@ import { Route } from "react-router-dom";
 
 function App() {
 
-return (
+  return (
     <div className="App">
       <NavBar />
       <Route exact path="/">
@@ -18,7 +18,7 @@ return (
         <CreateJournal />
       </Route>
       <Route exact path="/displayjournals">
-        <DisplayJournals/>
+        <DisplayJournals />
       </Route>
       <Route exact path="/vocabulary">
         <Vocab/>

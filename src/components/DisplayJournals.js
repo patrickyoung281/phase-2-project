@@ -6,11 +6,11 @@ function DisplayJournals ( ) {
 const [displayjournals, setDisplayJournals] = useState([]);
 
 useEffect (()=>{
-    fetch("http://localhost:3000/journals")
+    fetch("http://localhost:3001/journals")
     .then((resp)=>resp.json())
     .then((data)=>setDisplayJournals(data))
-},[])
-
+},[displayjournals])
+    
 const allJournals = displayjournals.map((entry)=> {
     if (entry.id >= 3)
     return <JournalCardCreator key = {entry.id} date={entry.date} title={entry.title} journal={entry.journal} />

@@ -6,10 +6,10 @@ function Vocab () {
 const [vocab, setVocab] = useState([]);
 
 useEffect(()=>{
-    fetch("http://localhost:3000/journals")
+    fetch("http://localhost:3001/journals")
     .then((resp)=>resp.json())
     .then((data)=>setVocab(data));
-},[]) 
+},[vocab]) 
 
 const displayWords = vocab.map((word)=>{
     return <VocabCardCreator germanWord={word.germanWord} englishWord={word.englishWord} key={word.id} type={word.Type} id={word.id}/>

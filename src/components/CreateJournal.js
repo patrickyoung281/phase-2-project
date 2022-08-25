@@ -2,45 +2,47 @@ import React, {useState} from "react";
 
 function CreateJournal ( ) {
 
-const [formData, setFormData] = useState({
-        germanWord: "",
-        englishWord: "",
-        journal: "",
-        date: "",
-        title: "",
-})
-
-function handleChange (e) {
-    const name = e.target.name;
-    let value = e.target.value;
-    
-    setFormData({
-        ...formData,
-        [name]: value,
-    });
-}
-
-function handleSubmit (e) {
-    e.preventDefault();
-
-    fetch("http://localhost:3000/journals", {
-    method: "POST",
-    headers: {
-        "Content-Type": "application/json",
-    },
-    body: JSON.stringify(formData),
-    })
-    .then((resp)=>resp.json())
-
-    setFormData({
-        germanWord: "",
-        englishWord: "",
-        journal: "",
-        date: "",
-        title: "",
+    const [formData, setFormData] = useState({
+            germanWord: "",
+            englishWord: "",
+            journal: "",
+            date: "",
+            title: "",
     })
 
- }
+    function handleChange (e) {
+        const name = e.target.name;
+        let value = e.target.value;
+        
+        setFormData({
+            ...formData,
+            [name]: value,
+        });
+    }
+
+    function handleSubmit (e) {
+        e.preventDefault();
+
+        fetch("http://localhost:3001/journals", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+        })
+        .then((resp)=>resp.json())
+        
+        setFormData({
+            germanWord: "",
+            englishWord: "",
+            journal: "",
+            date: "",
+            title: "",
+        })
+
+        
+
+    }
  
 
     return (

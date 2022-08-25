@@ -4,7 +4,6 @@
       "id": 1,
       "germanWord": "Ich fühle mich heute...",
       "englishWord": "Today I feel...",
-      "Type": "Reflexive Verb",
       "journal": "",
       "date": "",
       "title": ""
@@ -13,18 +12,25 @@
       "id": 2,
       "germanWord": "Ich will...",
       "englishWord": "I want...",
-      "Type": "Modal Verb",
       "journal": "",
       "date": "",
       "title": ""
     },
     {
-      "germanWord": "der Tag",
-      "englishWord": "day",
-      "journal": "Mein Tag heute war schoen. ",
-      "date": "8/10/2022",
-      "title": "Journal #1",
+      "germanWord": "",
+      "englishWord": "",
+      "journal": "ddd",
+      "date": "",
+      "title": "",
       "id": 3
+    },
+    {
+      "germanWord": "qqqqq",
+      "englishWord": "cccc",
+      "journal": "eeeee",
+      "date": "dddddd",
+      "title": "aaaa",
+      "id": 4
     }
   ]
 }
