@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import Home from "./Home";
 import NavBar from "./NavBar";
 import CreateJournal from "./CreateJournal";
