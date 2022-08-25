@@ -21,7 +21,7 @@ function NavBar () {
             <h1 className="headerText">Mein Persönliches Tagesbuch</h1><h2>My Personal Diary</h2>
             
             <NavLink
-                to="/"
+                to="/home"
                 exact
                 style={linkStyles}
                 activeStyle={{
